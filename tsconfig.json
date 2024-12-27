@@ -2,9 +2,10 @@
   "compilerOptions": {
     "target": "es6",
     "module": "esnext",
-    "lib": ["dom", "esnext"], // Cette ligne assure que les types DOM sont utilisés
+    "lib": ["dom", "esnext"],
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true
-  }
+  },
+  "include": ["src/**/*", "speech-recognition.d.ts"]
 }
